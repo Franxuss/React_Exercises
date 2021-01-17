@@ -8,7 +8,7 @@ const Alert = props => {
 		red: "alert-danger",
 		orange: "alert-warning",
 		green: "alert-success",
-		yellow: "algo"
+		
 	};
 	if (colorClasses[props.color] === undefined) alert(`The color ${props.color} is not in the possible list of colors`);
 
